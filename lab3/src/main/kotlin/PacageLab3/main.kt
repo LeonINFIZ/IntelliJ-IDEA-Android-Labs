@@ -34,9 +34,9 @@ fun main()
 
     val Shapes = listOf(s1,s2,s3,s4,s5,s6)
 
-    var RectangleCount_2: Int = Shapes.filterIsInstance<Shape.Rectangle>().count()
-    var OvalCount_2: Int = Shapes.filterIsInstance<Shape.Oval>().count()
-    var LineCount_2: Int = Shapes.filterIsInstance<Shape.Line>().count()
+    val RectangleCount_2: Int = Shapes.filterIsInstance<Shape.Rectangle>().count()
+    val OvalCount_2: Int = Shapes.filterIsInstance<Shape.Oval>().count()
+    val LineCount_2: Int = Shapes.filterIsInstance<Shape.Line>().count()
 
     println("\nFrom filters")
     println("Rectangle: "+RectangleCount_2)
